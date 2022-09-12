@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    background: fixed;
+    background-image: url(imagens/ceuwebp.webp);
+    background-size: 100%;
+}
+.cabecalho {
+    background-color: rgb(26, 25, 25);
+    padding: 0.4%;
+    /*padding-bottom: 1.2%;*/
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    column-gap: 20%;
+    position: fixed;
+    width: 100%;
+}
+
+.cabecalho-h1-div > h1 {
+    font-family: 'Open Sans';
+    color: white;
+    padding-bottom: 10px;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    color: white
+}
+
+#menu:hover {
+    cursor: pointer;
+    color: rgb(190, 189, 189);
+}
+
+.cabecalho-menu-nav {
+    width: 90%;
+}
+.cabecalho-menu-ul {
+    border-top: 1px solid rgba(58, 58, 58, 0.459);
+    padding-top: 0.5%;
+    height: 35px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5%;
+}
+
+.cabecalho-menu-ul > li > a{
+    font-family: 'Open Sans';
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+}
+.cabecalho-menu-ul > li {
+    list-style: none;
+}
+
+.cabecalho-menu-ul > li:hover{
+    padding: 1% 0% 1.2% 0%;
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+
+.conteudo1 {
+    margin: auto;
+    width: 70%;
+    padding: 3% 1%;
+    background-color: rgb(102, 103, 107);
+}
+.conteudo1-h1-div {
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+    padding-top: 4%;
+    margin-top: 3.5%;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 1.5em;
+}
+.conteudo1-paragrafos {
+    color: white;
+    font-weight: lighter;
+    text-align: justify;
+    margin: 1% 4%;
+}
+
+.conteudo2 {
+    margin: auto;
+    width: 70%;
+    padding: 1% 1%;
+    background-color: rgb(102, 103, 107);
+}
+
+.conteudo2-h1-div {
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 1.5em;
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.conteudo2-paragrafos {
+    color: white;
+    font-weight: lighter;
+    text-align: justify;
+    margin: 1% 4%;
+}
+
+#linkapple {
+    color: white;
+    font-style: italic;
+}
+
+#linkapple::after{
+    content: '\1f517';
+}
+#linkapple:hover {
+    text-decoration: underline;
+}
+
+.conteudo3 {
+    margin: auto;
+    width: 70%;
+    padding: 1% 0%;
+    background-color: rgb(102, 103, 107);
+}
+
+.conteudo3-paragrafos {
+    color: white;
+    font-weight: lighter;
+    text-align: justify;
+    margin: 1% 4%;
+}
+
+.conteudo3-h1-div > h1 {
+    padding-bottom: 4%;
+    padding-top: 4%;
+    text-align: center;
+    color: white;
+    font-family: 'Open Sans';
+    font-size: 1.5em;
+    border-top: 1px solid rgba(0, 0, 0, 0.151);
+}
+
+.image {
+    padding-top: 2%;
+    width: 100%;
+}
+
+.conteudo4 {
+    margin: auto;
+    width: 70%;
+    padding: 1% 1%;
+    background-color: rgb(102, 103, 107);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.conteudo4-paragrafos {
+    color: white;
+    font-weight: lighter;
+    text-align: justify;
+    margin: 1% 4%;
+}
+
+.conteudo4-ul1 {
+    list-style-position: inside;
+    margin: 2% 8%;
+}
+.conteudo4-ul1 > li {
+    color: white;
+    font-family: sans-serif;
+    padding: 0.6% 0%;
+    
+}
+
+.conteudo4-ul2 {
+    list-style-position: inside;
+    margin: 2% 7.2%;
+}
+
+.conteudo4-ul2 > li {
+    list-style-type: '\2611';
+    padding: 0.6% 0%;
+}
+
+.conteudo4-ul2-a {
+    margin-left: 1.2%;
+    color: white;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.conteudo4-ul2-a::after {
+    content: '\1F517';
+}
+
+.conteudo4-ul2-a:hover {
+    text-decoration: underline;
+}
+
+.rodape {
+    background-color: black;
+    margin-top: 5%;
+    padding: 0.2%;
+}
+
+.rodape > p {
+    margin-left: 12%;
+    margin-right: 12%;
+    color: white;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.rodape > p > a {
+    color: white;
+    font-family: 'Open Sans';
+    font-style: italic;
+}
+
+.rodape > p > a:hover {
+    border-bottom: 0.5px solid white;
+}
+
+.pic1 {
+    margin: 5% 0%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
